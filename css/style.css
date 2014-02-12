@@ -39,6 +39,23 @@ h1 {
 	line-height: 1.2;
 }
 
+/* Clearfix */
+
+.cfix:before,
+.cfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cfix:after {
+    clear: both;
+}
+
+.cfix {
+    *zoom: 1;
+}
+
+
 
 /* Isotope ----------------------------- */
 
@@ -130,6 +147,37 @@ text-decoration: none;
 	}
 }
 
+
+
+
+/* Share Bar  ----------------------------- */
+
+.sharebar {
+	margin: 0 20px 2em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #ddd;
+}
+
+.sharebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.sharebar li {
+	float: left;
+	margin-right: 20px;
+}
+
+.sharebar label {
+	font-size: 0.8em;
+	line-height: 2em;
+	color: #999;
+}
+
+.sharebar .fb {
+	min-width: 56px;
+}
 
 
 
