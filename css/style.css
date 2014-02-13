@@ -285,8 +285,9 @@ text-decoration: none;
 
 /* Athlete Page ----------------------------- */
 .wrap {
-	width:850px;
-	margin:0 auto;
+	max-width: 900px;
+	text-align: left; 
+	margin: 0 15px;
 }
 .card {
 	float: left;
